@@ -1,7 +1,7 @@
 """
 Created by: Mr. Coxall
-Created on: Sep 2020
-This module is a Micro:bit MicroPython program
+Created on: May 2026
+This module is will move a pixel around the perimeter.
 """
 
 from microbit import *
