@@ -1,11 +1,12 @@
 """
-Created by: Mr. Coxall
+Created by: Dat Nguyen
 Created on: May 2026
-This module is will move a pixel around the perimeter.
+This module will move a pixel along the perimeter.
 """
 
 from microbit import *
 
+# initialize display
 display.show(Image.HAPPY)
 
 while True:
@@ -16,7 +17,7 @@ while True:
         # reset counters
         x_counter = 0
         y_counter = 0
-        
+
         # move right
         while x_counter < 4:
             display.set_pixel(x_counter, y_counter, 9)
@@ -61,7 +62,7 @@ while True:
             y_counter += 1
             sleep(100)
             display.clear()
-        
+
         # move right
         while x_counter < 4:
             display.set_pixel(x_counter, y_counter, 9)
@@ -84,4 +85,3 @@ while True:
             display.clear()
 
         display.show(Image.HAPPY)
-        
