@@ -15,7 +15,7 @@ let yCounter = 0
 // handle button A press
 input.onButtonPressed(Button.A, function() {
     // create sprite
-    let sprite = game.createSprite(0, 0)
+    const sprite = game.createSprite(0, 0)
 
     // reset counters
     xCounter = 0
@@ -59,7 +59,7 @@ input.onButtonPressed(Button.A, function() {
 // handle button B press
 input.onButtonPressed(Button.B, function () {
     // create sprite
-    let sprite = game.createSprite(0, 0)
+    const sprite = game.createSprite(0, 0)
 
     // reset counters
     xCounter = 0
